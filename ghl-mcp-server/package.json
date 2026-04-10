@@ -1,0 +1,37 @@
+{
+  "name": "ghl-mcp-server",
+  "version": "1.0.0",
+  "description": "GoHighLevel MCP Server for Claude Code — manage contacts, funnels, pipelines, calendars, and more via natural language",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ghl-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "gohighlevel",
+    "ghl",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "crm",
+    "funnels"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
