@@ -248,5 +248,3 @@ MIT - do whatever you want with it.
 Built by [Angela Ai Specialist](https://www.facebook.com/groups/814195164542542/user/61574356028671) for people who want their AI agent to run their GHL CRM.
 
 [Join the Facebook group](https://www.facebook.com/groups/814195164542542) for tips, new skills, and updates.
-#   g o h i g h l e v e l - m c p - s k i l l s  
- 
